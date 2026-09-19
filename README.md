@@ -2,9 +2,6 @@
  Building a FAT12 Filesystem Boot Sector From Scratch — No mkfs.fat Required
 
 
-
- Here is a clean, modern, and professional `README.md` template tailored for your x86 assembly FAT12 bootloader project.
-
 ---
 
 
