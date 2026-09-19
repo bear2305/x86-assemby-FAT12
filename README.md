@@ -2,9 +2,14 @@
  Building a FAT12 Filesystem Boot Sector From Scratch — No mkfs.fat Required
 ---
 
-<img width="1913" height="1072" alt="image" src="https://github.com/user-attachments/assets/4f9396e3-df80-4ba2-a44e-995fd02a8ee9" />
+<img width="1913" height="1072" alt="image" src="https://github.com/user-attachments/assets/47337da4-cfe0-4163-84df-9fef303c952e" />
+
+<!--have to remove 
+
+<img width="1913" height="1072" alt="image" src="https://github.com/user-attachments/assets/4f9396e3-df80-4ba2-a44e-995fd02a8ee9" />      
 
 
+-->
 
 
 ---
