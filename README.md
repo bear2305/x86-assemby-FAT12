@@ -1,8 +1,16 @@
 # x86-assemby-FAT12
  Building a FAT12 Filesystem Boot Sector From Scratch — No mkfs.fat Required
+---
+
+<img width="1913" height="1072" alt="image" src="https://github.com/user-attachments/assets/4f9396e3-df80-4ba2-a44e-995fd02a8ee9" />
+
+
 
 
 ---
+
+
+
 
 
 # Custom x86 FAT12 Bootloader
@@ -57,10 +65,10 @@ sudo apt install nasm qemu-system-x86
 
 ### 1. Assemble the Source Code
 
-Compile `test.asm` into a raw binary file using NASM:
+Compile `FAT12.asm` into a raw binary file using NASM:
 
 ```bash
-nasm -f bin test.asm -o boot.bin
+nasm FAT12.asm -o FAT12.img
 
 ```
 
@@ -69,7 +77,7 @@ nasm -f bin test.asm -o boot.bin
 Run your compiled binary image directly in QEMU:
 
 ```bash
-qemu-system-i386 -fda boot.bin
+qemu-system-i386 -fda FAT12.img
 
 ```
 
