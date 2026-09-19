@@ -7,7 +7,7 @@
 
 ---
 
-```markdown
+
 # Custom x86 FAT12 Bootloader
 
 A lightweight x86 assembly implementation of a custom FAT12 bootloader designed for legacy BIOS systems. This project sets up the Bios Parameter Block (BPB) required for FAT12 file system compatibility and demonstrates basic boot sector initialization.
@@ -48,11 +48,11 @@ The program defines a custom Bios Parameter Block (BPB) to allow disk tools and 
 You need **NASM** (to assemble the code) and **QEMU** (to run the bootable image).
 
 #### On Debian/Ubuntu:
-```bash
+bash
 sudo apt update
 sudo apt install nasm qemu-system-x86
 
-```
+
 
 ---
 
@@ -109,7 +109,6 @@ TIMES 510-($-$$) DB 0
 DW 0xaa55            ; Magic boot loader signature
 TIMES 25088 DB 0    ; Reserved disk space padding
 
-```
 
 ---
 
