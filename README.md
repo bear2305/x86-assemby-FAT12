@@ -58,10 +58,10 @@ The program defines a custom Bios Parameter Block (BPB) to allow disk tools and 
 You need only **NASM** (to assemble the code) 
 
 #### On Debian/Ubuntu:
-bash
+```bash
 sudo apt update
 sudo apt install nasm 
-
+```
 
 
 ---
