@@ -84,7 +84,7 @@ First create a folder to mount the fat12.img to it. :
 ```
 mkdir ~/Desktop/fat12_mounting_folder
 ```
-##THEN
+## THEN
 ```bash
 sudo mount FAT12.img ~/Desktop/fat12_mounting_folder
 
