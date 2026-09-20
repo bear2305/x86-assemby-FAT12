@@ -77,14 +77,16 @@ nasm FAT12.asm -o FAT12.img
 
 ```
 
-### 2. MOUNTING THE fat12 image
+### 2. Mounting the FAT12 Image Manually
 
 First create a folder to mount the fat12.img to it. :
 
-mkdir ~Desktop\fat12_mounting_folder
-
+```
+mkdir ~/Desktop/fat12_mounting_folder
+```
+##THEN
 ```bash
-sudo mount FAT12.img ~Desktop\fat12_mounting_folder
+sudo mount FAT12.img ~/Desktop/fat12_mounting_folder
 
 ```
 
