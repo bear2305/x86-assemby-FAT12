@@ -55,12 +55,12 @@ The program defines a custom Bios Parameter Block (BPB) to allow disk tools and 
 
 ### Prerequisites
 
-You need **NASM** (to assemble the code) and **QEMU** (to run the bootable image).
+You need only **NASM** (to assemble the code) 
 
 #### On Debian/Ubuntu:
 bash
 sudo apt update
-sudo apt install nasm qemu-system-x86
+sudo apt install nasm 
 
 
 
@@ -81,7 +81,7 @@ nasm FAT12.asm -o FAT12.img
 
 First create a folder to mount the fat12.img to it. :
 
-```
+```bash
 mkdir ~/Desktop/fat12_mounting_folder
 ```
 ## THEN
@@ -124,7 +124,7 @@ TIMES 510-($-$$) DB 0
 DW 0xaa55            ; Magic boot loader signature
 TIMES 25088 DB 0    ; Reserved disk space padding
 
-
+```
 ---
 
 ## 📜 License
