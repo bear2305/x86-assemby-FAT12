@@ -77,14 +77,17 @@ nasm FAT12.asm -o FAT12.img
 
 ```
 
-### 2. Test in QEMU Virtual Machine
+### 2. MOUNTING THE fat12 image
 
-Run your compiled binary image directly in QEMU:
+First create a folder to mount the fat12.img to it. :
+
+mkdir ~Desktop\fat12_mounting_folder
 
 ```bash
-qemu-system-i386 -fda FAT12.img
+sudo mount FAT12.img ~Desktop\fat12_mounting_folder
 
 ```
+
 
 ---
 
@@ -92,7 +95,7 @@ qemu-system-i386 -fda FAT12.img
 
 ```text
 .
-├── test.asm        # Main x86 assembly source file containing BPB and entry point
+├── FAT12.asm        # Main x86 assembly source file containing BPB and entry point
 └── README.md       # Project documentation
 
 ```
